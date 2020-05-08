@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Historical Figures</title>
+    </head>
+    <body>
+        <h1>Historical Figures</h1>
+        <div id="N_R_B">
+            <h2>Ned Ludd</h2>
+                <p>Ludd started the Luddite movement, which began as a protest against machines replacing facotry workers in factories.  Luddites are not necessarily against technology and the technological progress.  Rather, they advocate integrating technology in such a way that will attenuate the damage done to the working class.</p>
+            <h2>Teddy Roosevelt</h2>
+                <img src="Rough_rider.jpg" alt="into the wind">
+                <p>He was a Rough Rider and the 26th president of the United States.</p>
+            <h2>Richary Byrd</h2>
+                <P>Richard Byrd was an explorer and scientist, whose work is captured in his book <a href="https://www.amazon.com/Alone-Classic-Adventure-Richard-Byrd/dp/1559634634">'Alone.'</a></P>
+        </div>
+        <div id="P_G">
+            <h2>Ezra Pound</h2>
+                <p>Do you know where the phrase "pound for pound" comes from?  I don't. And it's not becuase of Ezra Pound.  He's a poet who was born in Haily, Idaho.</p>
+                <p>Pound's famous works include:</p>
+                    <ul>
+                        <li>The Cantos</li>
+                        <li>Make it New</li>
+                        <li>ABC of Reading</li>
+                        <li>the Spirit of Romance</li>
+                    </ul>
+            <h2>Marcus Garvey</h2>
+                <p>One of Garvey's provocative ideas was the Black Star Line, a cruise line that's purpose was the bring African Americans back to Africa, circa 1920.</p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Historical Figure</th>
+                    <th>Year Born</th>
+                    <th>Instagram Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ned Ludd</td>
+                    <td>Before you, probably</td>
+                    <td><a href="theinternetisbroken.edu" alt="not here">Linked here.</a></td>
+                </tr>
+                <tr>
+                    <td>Teddy Roosevelt</td>
+                    <td>1858</td>
+                    <td><a href="https://www.brainerddispatch.com/news/4385127-trump-isnt-big-reading-teddy-roosevelt-consumed-whole-books-breakfast" alt="Books are better">Linked here.</a></td>
+                </tr>
+                <tr>
+                    <td>Richard Byrd</td>
+                    <td>1888</td>
+                    <td><a href="https://www.youtube.com/watch?v=vzJ9_6kDrQE" alt="no site">Linked here.</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="process.php" method="post">
+            <p>
+                <label for="which_fig">Which historical figure do you want to know more about?</label>
+                <select name="which_fig">
+                    <option value="Ludd">Ludd</option>
+                    <option value="Roosevelt">Roosevelt</option>
+                    <option value="Byrd">Byrd</option>
+                    <option value="Pound">Pound</option>
+                    <option value="Garvey">Garvey</option>
+                </select>            
+            </p>
+            <p>
+                <label for="Different">Do you have a different historical figure in mind?</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="clickonbox">Click the historical figures that you know:</label>
+            </p>
+            <p>
+                <label for="Moses">Moses</label>
+                <input type="checkbox" id="Moses" name="figure" value="Moses">
+                <label for="Wilson">Woodrow Wilson</label>
+                <input type="checkbox" id="Wilson" name="figure" value="Wilson">
+                <label for="Mao">Mao Zedong</label>
+                <input type="checkbox" id="Mao" name="figure" value="Mao">
+                <label for="Madison">James Madison</label>
+                <input type="checkbox" id="Madison" name="figure" value="Madison">
+                <label for="Other">Gertrude Bell</label>
+                <input type="checkbox" id="Other" name="figure" value="Other">
+            </p>
+            <p>
+                <label for="eitheror">Do you want to know more about historical figures?</label>
+            </p>
+            <p>
+                <label for="Yes">Yes</label>
+                <input type="radio" id="Yes" name="gender" value="Yes">
+                <label for="No">No</label>
+                <input type="radio" id="No" name="gender" value="No">
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>>
+    </body>
+</html>
+
+
